@@ -24,6 +24,7 @@ export default function NavBar() {
         {isMenuOpen && (
           <div className="fixed inset-0 bg-black/75 flex flex-col justify-center items-center z-40 text-black">
             <a
+              onClick={toggleMenu}
               href="#Intro"
               className="w-[75%] flex justify-between items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
@@ -35,6 +36,7 @@ export default function NavBar() {
               </div>
             </a>
             <a
+              onClick={toggleMenu}
               href="#Experience"
               className="w-[75%] flex justify-between items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
@@ -46,7 +48,8 @@ export default function NavBar() {
               </div>
             </a>
             <a
-              href="#main"
+              onClick={toggleMenu}
+              href="#Projects"
               className="w-[75%] flex justify-between items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <div className="flex-1 flex justify-end">
@@ -57,7 +60,8 @@ export default function NavBar() {
               </div>
             </a>
             <a
-              href="#main"
+              onClick={toggleMenu}
+              href="#Contact"
               className="w-[75%] flex justify-between items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <div className="flex-1 flex justify-end">
@@ -82,7 +86,7 @@ export default function NavBar() {
 
         {/* Right side */}
         <div className="flex text-md space-x-6">
-          <a href="#main">
+          <a href="#Intro">
             <span>About</span>
           </a>
           <a href="#Experience">

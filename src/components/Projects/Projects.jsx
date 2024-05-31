@@ -2,7 +2,7 @@ import { AiFillGithub } from "react-icons/ai";
 
 export default function Experience() {
   return (
-    <div className="bg-none bg-white text-black px-[10%] pb-[10%]">
+    <div id="Projects" className="bg-none bg-white text-black px-[10%] pb-[10%]">
       <div className="px-3 text-2xl flex justify-between border-b pb-2 border-black">
         <h1 className="">Past Work</h1>
         <h2 className="justify-end"></h2>
