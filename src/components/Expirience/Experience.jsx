@@ -10,7 +10,7 @@ export default function Experience() {
         <h1 className="">Experience</h1>
         <h2 className="justify-end"></h2>
       </div>
-      <div className="text-2xl py-10 flex flex-col sm:flex-row items-center border-b pb-2 border-black">
+      <div className="text-2xl pt-4 sm:pt-0 sm:h-40 flex flex-col sm:flex-row items-center border-b pb-2 border-black">
         <div className="w-full sm:w-[10%] mb-4 sm:mb-0">
           <img
             src="https://images.squarespace-cdn.com/content/v1/659e4311ac6cd11a2526443d/6b580ce4-fd34-4057-8313-5cabdeff928e/image+16.png"

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Spin as Hamburger } from "hamburger-react";
-import { AiOutlineHome } from "react-icons/ai";
+import { AiOutlineHome, AiTwotoneFileText } from "react-icons/ai";
 import { RiGraduationCapLine } from "react-icons/ri";
 import { GoTerminal } from "react-icons/go";
 import { MdOutlineWorkOutline } from "react-icons/md";
@@ -71,6 +71,18 @@ export default function NavBar() {
                 <span>Contact</span>
               </div>
             </a>
+            <a
+              onClick={toggleMenu}
+              href="https://storage.googleapis.com/simplify-resumes/965f5507-fe8d-4fda-8b11-7bad95756b65/b5ae80cf-0603-47c1-9dec-f2619b2a1915/1717374863.pdf?Expires=1717979663&GoogleAccessId=gcs-signing-service-account%40mifflin-backend.iam.gserviceaccount.com&Signature=wHuhRfh1TKVuD7%2B7lq57QZk27cBpgB1RWlR3YxYShapKqxTwlXL22zM8StJKTNTMOzz9i7eIeFNbv%2BcYEmRg%2F0zVDuWsJWStS8BZTzRYoWUPIUfMbl%2Fq9xx36C3yK3j0wGWvTWhJJT6S7z%2Fk35bQ5ODbOR%2FV48HJXX1%2FGjoUR3YmJHW%2F4VaexnkSDMrAeyUE3YkmAQ%2Bzp4zR%2FcMIKbfSnAYR09Zs6B66pvbz1aTJTwsKFoMf4I2ghsPhPPNkg1qEIPaMtxWIOnUgHWp%2FOxHNgvSPMAJeoWMHlOuwwn9Jc9wZB1MIt6%2Fw2%2FkruF2wSK7G%2Ffav%2BZaksr5rVgJ%2BL0jYMA%3D%3D"
+              className="w-[75%] flex justify-between items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 p-4 m-2 cursor-pointer hover:scale-110 ease-in duration-200"
+            >
+              <div className="flex-1 flex justify-end">
+                <AiTwotoneFileText size={20} />
+              </div>
+              <div className="flex-1 pl-4">
+                <span>Resume</span>
+              </div>
+            </a>
           </div>
         )}
       </div>
@@ -97,6 +109,9 @@ export default function NavBar() {
           </a>
           <a href="#Contact">
             <span>Contact</span>
+          </a>
+          <a href="https://storage.googleapis.com/simplify-resumes/965f5507-fe8d-4fda-8b11-7bad95756b65/b5ae80cf-0603-47c1-9dec-f2619b2a1915/1717374863.pdf?Expires=1717979663&GoogleAccessId=gcs-signing-service-account%40mifflin-backend.iam.gserviceaccount.com&Signature=wHuhRfh1TKVuD7%2B7lq57QZk27cBpgB1RWlR3YxYShapKqxTwlXL22zM8StJKTNTMOzz9i7eIeFNbv%2BcYEmRg%2F0zVDuWsJWStS8BZTzRYoWUPIUfMbl%2Fq9xx36C3yK3j0wGWvTWhJJT6S7z%2Fk35bQ5ODbOR%2FV48HJXX1%2FGjoUR3YmJHW%2F4VaexnkSDMrAeyUE3YkmAQ%2Bzp4zR%2FcMIKbfSnAYR09Zs6B66pvbz1aTJTwsKFoMf4I2ghsPhPPNkg1qEIPaMtxWIOnUgHWp%2FOxHNgvSPMAJeoWMHlOuwwn9Jc9wZB1MIt6%2Fw2%2FkruF2wSK7G%2Ffav%2BZaksr5rVgJ%2BL0jYMA%3D%3D">
+            <span>Resume</span>
           </a>
         </div>
       </div>

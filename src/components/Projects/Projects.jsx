@@ -2,12 +2,15 @@ import { AiFillGithub } from "react-icons/ai";
 
 export default function Experience() {
   return (
-    <div id="Projects" className="bg-none bg-white text-black px-[10%] pb-[10%]">
+    <div
+      id="Projects"
+      className="bg-none bg-white text-black px-[10%] pb-[10%]"
+    >
       <div className="px-3 text-2xl flex justify-between border-b pb-2 border-black">
         <h1 className="">Past Work</h1>
         <h2 className="justify-end"></h2>
       </div>
-      <div className="text-2xl py-10 flex flex-col sm:flex-row items-center border-b pb-2 border-black">
+      <div className="text-2xl pt-4 sm:pt-0 sm:h-40 flex flex-col sm:flex-row items-center border-b pb-2 border-black">
         <div className="w-full sm:w-[10%] mb-4 sm:mb-0">
           <img
             src="https://missionofhope.org/wp-content/uploads/2023/04/cropped-MOH-Logo-e1706121435496.png"
@@ -37,11 +40,11 @@ export default function Experience() {
           </a>
         </div>
       </div>
-      <div className="text-2xl pt-10 flex flex-col sm:flex-row items-center border-b pb-2 border-black">
+      <div className="text-2xl pt-4 sm:pt-0 sm:h-40 flex flex-col sm:flex-row items-center border-b pb-2 border-black">
         <div className="w-full sm:w-[10%] mb-4 sm:mb-0">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/e/e4/DijkstraDemo.gif"
-            alt="mission of hope logo"
+            alt="Dijkstra's Algorithm Demo"
             className="object-scale-down w-full max-w-[100px] sm:max-w-none"
           />
         </div>
