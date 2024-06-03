@@ -98,9 +98,6 @@ export default function NavBar() {
 
         {/* Right side */}
         <div className="flex text-md space-x-6">
-          <a href="#Intro">
-            <span>About</span>
-          </a>
           <a href="#Experience">
             <span>Experience</span>
           </a>
