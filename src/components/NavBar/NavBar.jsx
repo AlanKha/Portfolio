@@ -12,7 +12,7 @@ export default function NavBar() {
   };
 
   return (
-    <div className="">
+    <div className="h-[5vh]">
       {/* Mobile View */}
       <div className="sm:hidden flex justify-between items-center px-[5%]">
         <div className="z-50">

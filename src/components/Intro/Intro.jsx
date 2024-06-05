@@ -1,6 +1,6 @@
 export default function Intro() {
   return (
-    <div id="Intro" className=" px-[10%] flex justify-center flex-col items-center h-[90vh]">
+    <div id="Intro" className=" px-[10%] flex justify-center flex-col items-center h-[95vh]">
       <h1 className="text-4xl font-bold text-center">
         Hi, my name is <span className="text-blue-300 border-b">Alan Khalili</span>👋
       </h1>

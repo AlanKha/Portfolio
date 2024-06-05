@@ -7,7 +7,7 @@ export default function Experience() {
       className="bg-none bg-white text-black px-[10%] pb-[10%]"
     >
       <div className="px-3 text-2xl flex justify-between border-b pb-2 border-black">
-        <h1 className="">Past Work</h1>
+        <h1 className="">Featured Work</h1>
         <h2 className="justify-end"></h2>
       </div>
       <div className="text-2xl pt-4 sm:pt-0 sm:h-40 flex flex-col sm:flex-row items-center border-b pb-2 border-black">
