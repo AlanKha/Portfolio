@@ -11,58 +11,69 @@ export default function Contact() {
       >
         <div className="grid md:grid-cols-2 gap-4 w-full py-2">
           <div className="flex flex-col">
-            <label htmlFor="" className="uppercase text-sm py-2">
+            <label htmlFor="name" className="uppercase text-sm py-2">
               Name
             </label>
             <input
               type="text"
+              id="name"
               name="name"
               className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
+              required
             />
           </div>
           <div className="flex flex-col">
-            <label htmlFor="" className="uppercase text-sm py-2">
+            <label htmlFor="phone" className="uppercase text-sm py-2">
               Phone Number
             </label>
             <input
-              type="text"
+              type="tel"
+              id="phone"
               name="phone"
               className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
             />
           </div>
         </div>
         <div className="flex flex-col">
-          <label htmlFor="" className="uppercase text-sm py-2">
+          <label htmlFor="email" className="uppercase text-sm py-2">
             Email
           </label>
           <input
             type="email"
+            id="email"
             name="email"
             className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
+            required
           />
         </div>
         <div className="flex flex-col py-2">
-          <label htmlFor="" className="uppercase text-sm py-2">
+          <label htmlFor="subject" className="uppercase text-sm py-2">
             Subject
           </label>
           <input
             type="text"
+            id="subject"
             name="subject"
             className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
+            required
           />
         </div>
         <div className="flex flex-col py-2">
-          <label htmlFor="" className="uppercase text-sm py-2">
+          <label htmlFor="message" className="uppercase text-sm py-2">
             Message
           </label>
           <textarea
             className="border-2 rounded-lg p-3 border-gray-300 text-black"
             name="message"
+            id="message"
             rows="10"
-            id=""
+            required
           ></textarea>
         </div>
-        <button className="rounded-lg bg-green-400 text-gray-100 mt-4 w-full p-4">
+        <button
+          type="submit"
+          className="rounded-lg bg-[#62A87C] text-gray-100 mt-4 w-full p-4"
+        >
           Send Message
         </button>
       </form>
