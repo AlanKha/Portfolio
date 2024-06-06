@@ -1,13 +1,12 @@
-import { WiHot } from "react-icons/wi";
 import { RoughNotation } from "react-rough-notation";
 
 export default function Intro() {
   return (
     <div
       id="Intro"
-      className=" px-[10%] flex justify-center flex-col items-center h-[95vh]"
+      className=" px-[10%] flex justify-center text-center flex-col items-center h-[95vh]"
     >
-      <h1 className="text-4xl font-bold text-center pb-3">
+      <h1 className="text-6xl font-bold pb-3">
         Hi, my name is{" "}
         <span className="text-blue-300">
           <RoughNotation
@@ -23,21 +22,20 @@ export default function Intro() {
         </span>
         👋
       </h1>
-      <h2>
+      <h2 className="text-xl">
         It's my third year at The University of Tennessee studying Computer
         Science, and{" "}
         <RoughNotation
           type="highlight"
+          iterations={1}
           show={true}
           color={"#bf9002"}
           animationDelay={2000}
-          animationDuration={2000}
+          animationDuration={1000}
           multiline={true}
         >
-          I love coding, coffee, and cooking
-        </RoughNotation>
-      </h2>
-      <h2>
+          I love coding, coffee, and cooking!
+        </RoughNotation>{" "}
         Currently looking for Software Engineering Internship Opportunities!
         Feel free to{" "}
         <RoughNotation
@@ -47,9 +45,7 @@ export default function Intro() {
           animationDelay={4000}
           multiline={true}
         >
-          <a href="#Contact" className="underline">
-            reach out
-          </a>
+          <a href="#Contact">reach out</a>
         </RoughNotation>
       </h2>
     </div>

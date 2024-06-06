@@ -31,7 +31,7 @@ export default function Experience() {
         </div>
         <div className="invisible sm:visible w-full sm:w-[10%] ml-auto flex items-center justify-end">
           <a
-            href="https://github.com/hack4impact-utk/mission-of-hope"
+            href="https://github.com/hack4impact-utk/"
             target="_blank"
             rel="noopener noreferrer"
           >

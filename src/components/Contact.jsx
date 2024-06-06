@@ -72,7 +72,7 @@ export default function Contact() {
         </div>
         <button
           type="submit"
-          className="rounded-lg bg-[#62A87C] text-gray-100 mt-4 w-full p-4"
+          className="rounded-lg bg-[#62A87C] text-white mt-4 w-full p-4"
         >
           Send Message
         </button>
