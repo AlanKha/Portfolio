@@ -1,4 +1,5 @@
 import { AiFillGithub } from "react-icons/ai";
+import ScrollAnimation from "./ScrollAnimation";
 
 export default function Experience() {
   return (
@@ -10,6 +11,7 @@ export default function Experience() {
         <h1 className="">Featured Work</h1>
         <h2 className="justify-end"></h2>
       </div>
+      <ScrollAnimation>
       <div className="text-2xl pt-4 sm:pt-0 sm:h-40 flex flex-col sm:flex-row items-center border-b pb-2 border-black">
         <div className="w-full sm:w-[10%] mb-4 sm:mb-0">
           <img
@@ -39,7 +41,9 @@ export default function Experience() {
             <AiFillGithub className="text-3xl" size={50} />
           </a>
         </div>
-      </div>
+        </div>
+      </ScrollAnimation>
+      <ScrollAnimation>
       <div className="text-2xl pt-4 sm:pt-0 sm:h-40 flex flex-col sm:flex-row items-center border-b pb-2 border-black">
         <div className="w-full sm:w-[10%] mb-4 sm:mb-0">
           <img
@@ -69,7 +73,8 @@ export default function Experience() {
             <AiFillGithub className="text-3xl" size={50} />
           </a>
         </div>
-      </div>
+        </div>
+      </ScrollAnimation>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import { AiFillGithub } from "react-icons/ai";
-import ScrollAnimation from '../ScrollAnimation';
+import ScrollAnimation from './ScrollAnimation';
 
 export default function Experience() {
   return (
