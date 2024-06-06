@@ -5,6 +5,7 @@ import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import SlidingText from "./components/SlidingText/SlidingText";
+
 export default function App() {
   return (
     <>
@@ -12,7 +13,7 @@ export default function App() {
       <Intro />
       <SlidingText />
       <Expirience />
-      <Projects />      
+      <Projects />
       <Contact />
       <Footer />
     </>
