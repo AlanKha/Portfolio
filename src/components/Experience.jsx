@@ -25,8 +25,7 @@ export default function Experience() {
             Hack4Impact
           </a>
           <h3 className="text-lg">
-            Delivered a user-centric inventory management system to a local
-            non-profit.
+            Work in small teams to develop a full-stack web application for local non-profit organizations.
           </h3>
         </div>
         <div className="invisible sm:visible w-full sm:w-[10%] ml-auto flex items-center justify-end">

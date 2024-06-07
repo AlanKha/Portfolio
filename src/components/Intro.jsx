@@ -4,9 +4,9 @@ export default function Intro() {
   return (
     <div
       id="Intro"
-      className=" px-[10%] flex justify-center text-center flex-col items-center h-[95vh]"
+      className=" px-[10%] flex justify-center  text-center flex-col items-center min-h-[95vh] pb-24"
     >
-      <h1 className="text-6xl font-bold pb-3">
+      <h1 className="text-6xl leading-snug font-bold pb-4">
         Hi, my name is{" "}
         <span className="text-blue-300">
           <RoughNotation
@@ -22,7 +22,7 @@ export default function Intro() {
         </span>
         👋
       </h1>
-      <h2 className="text-xl">
+      <h2 className="text-xl leading-normal">
         It's my third year at The University of Tennessee studying Computer
         Science, and{" "}
         <RoughNotation

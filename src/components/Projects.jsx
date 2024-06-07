@@ -29,7 +29,7 @@ export default function Experience() {
           </a>
           <h3 className="text-lg">
             Delivered a user-centric inventory management system to a local
-            non-profit.
+            donation center serving families in Rural Appalachia.
           </h3>
         </div>
         <div className="invisible sm:visible w-full sm:w-[10%] ml-auto flex items-center justify-end">

@@ -7,7 +7,7 @@ export default function SlidingText() {
   useEffect(() => {
     fetch("https://api.github.com/users/AlanKha/repos")
       .then((res) => res.json())
-      .then((data) => setRepos(data.slice(0, 5)));
+      .then((data) => setRepos(data));
   }, []);
 
   return (
