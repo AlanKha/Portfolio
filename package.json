@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "Portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://AlanKha.github.io/portfolio",
+  "homepage": "https://AlanKha.github.io/Portfolio",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
