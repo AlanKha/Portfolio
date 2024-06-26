@@ -13,18 +13,21 @@ export default function SlidingText() {
   return (
     <div className="h-20 flex bg-[#FFFCEC] text-[#000000] border-y-2">
       <Marquee pauseOnHover={true} delay={1}>
-        {repos.map((repo) => (
-          <a
-            key={repo.id}
-            href={`https://github.com/AlanKha/${repo.name}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="mx-6 text-xl">
-              {repo.name}, ⭐ {repo.stargazers_count}, 🍴 {repo.forks_count}
-            </span>
-          </a>
-        ))}
+        {repos
+          .filter((repo) => !repo.private) // Filter out private repositories
+          .map((repo) => (
+            <a
+              key={repo.id}
+              href={`https://github.com/AlanKha/${repo.name}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="mx-6 text-xl">
+                {repo.name}{" "}
+                <span className="text-sm">{repo.language ? `(${repo.language})` : ""}</span>
+              </span>
+            </a>
+          ))}
       </Marquee>
     </div>
   );
