@@ -8,7 +8,7 @@ export default function Experience() {
       className="bg-none bg-white text-black px-[10%] py-[5%]"
     >
       <div className="pt-[5vh] px-3 text-2xl flex justify-between border-b pb-2 border-black">
-        <h1 className="">Experience</h1>
+        <h1 className="">Poop</h1>
         <h2 className="justify-end"></h2>
       </div>
       <ScrollAnimation>
@@ -17,7 +17,7 @@ export default function Experience() {
             <img
               src="https://missionofhope.org/wp-content/uploads/2023/04/cropped-MOH-Logo-e1706121435496.png"
               alt="mission of hope logo"
-              className="object-scale-down w-full max-w-[100px] sm:max-w-none"
+              className="object-scale-down w-full max-h-32 sm:max-w-none"
             />
           </div>
           <div className="w-full sm:w-[80%] px-2 flex flex-col gap-1 justify-end">

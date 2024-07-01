@@ -16,8 +16,8 @@ export default function Experience() {
           <div className="w-full sm:w-[10%] mb-4 sm:mb-0">
             <img
               src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWo2MmlxMTk2c3hhcmkxcnF6djF5c3U3eG80Z3NjM3dseG02NjJqeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xCAZJEPXYCazrgF9mi/giphy.webp"
-              alt="mission of hope logo"
-              className="object-scale-down w-full max-w-[100px] sm:max-w-none"
+              alt="Donation Box Gif"
+              className="object-scale-down w-full max-h-40 sm:max-w-none"
             />
           </div>
           <div className="w-full sm:w-[80%] px-2 flex flex-col gap-1 justify-end">
@@ -49,7 +49,7 @@ export default function Experience() {
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/e/e4/DijkstraDemo.gif"
               alt="Dijkstra's Algorithm Demo"
-              className="object-scale-down w-full max-w-[100px] sm:max-w-none"
+              className="object-scale-down w-full max-h-32 sm:max-w-none"
             />
           </div>
           <div className="w-full sm:w-[80%] px-2 flex flex-col gap-1 justify-end">
@@ -81,7 +81,7 @@ export default function Experience() {
             <img
               src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm1iOWkyNTZmdm16cGp6bnRobGwxZjkzcmYzMWNjMWs3YTl4cmx3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LMt9638dO8dftAjtco/giphy.webp"
               alt="Python Logo"
-              className="object-scale-down w-full max-w-[100px] sm:max-w-none"
+              className="object-scale-down max-h-36 w-full max-w-[100px] sm:max-w-none"
             />
           </div>
           <div className="w-full sm:w-[80%] px-2 flex flex-col gap-1 justify-end">
