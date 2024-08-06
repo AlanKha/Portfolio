@@ -89,10 +89,11 @@ export default function Experience() {
               href="https://github.com/AlanKha/Python-File-Organizer"
               className="text-xl font-semibold"
             >
-              Organization Scrip
+              Coffee Recommender
             </a>
             <h3 className="text-lg">
-              Automated file organization with a Python script.
+              A recommendation system using cosine
+              similarity based on numeric and textual attributes.
             </h3>
           </div>
           <div className="invisible sm:visible w-full sm:w-[10%] ml-auto flex items-center justify-end">
