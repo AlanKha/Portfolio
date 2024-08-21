@@ -7,7 +7,7 @@ export default function Experience() {
       className="bg-none bg-white text-black px-[10%] py-[5%]"
     >
       <div className="pt-[5vh] px-3 text-2xl flex justify-between border-b pb-2 border-black">
-        <h1 className="">Expirience</h1>
+        <h1 className="">Experience</h1>
         <h2 className="justify-end"></h2>
       </div>
       <ScrollAnimation>

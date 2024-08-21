@@ -25,7 +25,7 @@ export default function Experience() {
               href="https://missionofhope.org/"
               className="text-xl font-semibold"
             >
-              Donation Managment System
+              Donation Management System
             </a>
             <h3 className="text-lg">
               Delivered a user-centric inventory management system to a local
