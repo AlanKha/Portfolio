@@ -16,6 +16,7 @@ export default function Intro() {
             color={"white"}
             strokeWidth={3}
             multiline={true}
+            hover={true}
           >
             Alan Khalili
           </RoughNotation>
