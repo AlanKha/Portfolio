@@ -28,7 +28,7 @@ export default function Experience() {
             </a>
             <h3 className="text-lg">
               Implemented computer vision algorithms for shooter identification
-              and tracking to help school administrators and first responders.
+              and tracking.
             </h3>
           </div>
           <div className="invisible sm:visible w-full sm:w-[10%] ml-auto flex items-center justify-end">
