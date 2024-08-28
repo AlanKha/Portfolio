@@ -21,10 +21,10 @@ export default function Experience() {
           </div>
           <div className="w-full sm:w-[80%] px-2 flex flex-col gap-1 justify-end">
             <a
-              href="https://hack4impact.org/"
+              href="https://tickle.utk.edu/asters-provides-safety-solution-for-school-shootings/"
               className="text-xl font-semibold"
             >
-              UTK REU Intern
+              REU Intern, University of Tennessee
             </a>
             <h3 className="text-lg">
               Implemented computer vision algorithms for shooter identification
@@ -47,14 +47,13 @@ export default function Experience() {
           </div>
           <div className="w-full sm:w-[80%] px-2 flex flex-col gap-1 justify-end">
             <a
-              href="https://hack4impact.org/"
+              href="https://missionofhope.org/"
               className="text-xl font-semibold"
             >
-              Hack4Impact Developer
+              Fullstack Developer, Mission of Hope
             </a>
             <h3 className="text-lg">
-              Work in small teams to develop a full-stack web application for
-              local non-profit organizations.
+            Increased operational efficiencies by creating internal systems for their donors and admins.
             </h3>
           </div>
           <div className="invisible sm:visible w-full sm:w-[10%] ml-auto flex items-center justify-end">
