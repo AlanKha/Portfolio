@@ -23,8 +23,8 @@ The design of this website was inspired by [Arc.net](https://arc.net).
 
 To run the website locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/alan-khalili.com.git`
-2. Navigate to the project directory: `cd alan-khalili.com`
+1. Clone the repository: `git clone https://github.com/AlanKha/Portfolio.git`
+2. Navigate to the project directory: `cd Portfolio`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
 5. Open your web browser and visit `http://localhost:3000` to view the website.
