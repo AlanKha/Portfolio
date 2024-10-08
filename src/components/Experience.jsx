@@ -24,7 +24,7 @@ export default function Experience() {
               href="https://tickle.utk.edu/asters-provides-safety-solution-for-school-shootings/"
               className="text-xl font-semibold"
             >
-              REU Intern, University of Tennessee
+              Research Intern, University of Tennessee
             </a>
             <h3 className="text-lg">
               Implemented computer vision algorithms for shooter identification

@@ -1,6 +1,6 @@
 import NavBar from "./components/NavBar";
 import Intro from "./components/Intro";
-import Expirience from "./components/Experience";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -12,7 +12,7 @@ export default function App() {
       <NavBar />
       <Intro />
       <SlidingText />
-      <Expirience />
+      <Experience />
       <Projects />
       <Contact />
       <Footer />
