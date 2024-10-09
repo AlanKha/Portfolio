@@ -11,9 +11,9 @@ export default function SlidingText() {
   }, []);
 
   return (
-    <div className="h-20 my-0 flex text-black bg-gradient-to-b from-transparent to-white via-white overflow-hidden h-full">
+    <div className="h-20 my-0 flex text-black text-2xl bg-gradient-to-b from-transparent to-white via-white overflow-hidden h-full">
         <div
-          className="h-20 flex items-center justify-center w-full bg-marqueeBanner bg-repeat-x bg-contain"
+          className="h-32 flex items-center justify-center w-full bg-marqueeBanner bg-repeat-x bg-contain"
         >
           <Marquee pauseOnHover={true} delay={1}>
             {repos
@@ -25,7 +25,7 @@ export default function SlidingText() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="mx-6 text-xl">
+                  <span className="mx-6 ">
                     {repo.name}{" "}
                     <span className="text-sm">
                       {repo.language ? `(${repo.language})` : ""}
