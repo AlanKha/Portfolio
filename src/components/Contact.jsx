@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div id="Contact" className=" px-[10vw] m-auto p-4 py-16">
+    <div id="Contact" className=" px-36 p-4 py-16">
       <h1 className="py-4 text-4xl font-bold text-center">Contact</h1>
       <form
         action="https://getform.io/f/ebpdeevb"
@@ -72,7 +72,7 @@ export default function Contact() {
         </div>
         <button
           type="submit"
-          className="rounded-lg bg-[#62A87C] text-white mt-4 w-full p-4"
+          className="rounded-lg bg-customGreen text-customWhite mt-4 w-full p-4"
         >
           Send Message
         </button>

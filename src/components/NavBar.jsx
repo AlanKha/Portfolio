@@ -41,9 +41,9 @@ export default function NavBar() {
   }, [animateIndex]);
 
   return (
-    <div className="h-[5vh]">
+    <div className="h-12">
       {/* Mobile View */}
-      <div className="sm:hidden flex justify-between items-center px-[5%]">
+      <div className="lg:hidden flex justify-between items-center px-12">
         <div className="z-50">
           <span className="text-2xl font-semibold">Alan Khalili</span>
         </div>
@@ -142,7 +142,7 @@ export default function NavBar() {
       </div>
 
       {/* Desktop View */}
-      <div className="hidden sm:flex justify-between px-[10%] pt-2 text-xl">
+      <div className="hidden lg:flex justify-between px-36 pt-2 text-xl">
         {/* Left side */}
         <div>
           <a href="#main" className="text-2xl font-semibold">
@@ -151,7 +151,7 @@ export default function NavBar() {
         </div>
 
         {/* Right side */}
-        <div className="flex text-md space-x-6">
+        <div className="flex text-md space-x-8">
           <a href="#Experience">
             <span>Experience</span>
           </a>
@@ -161,7 +161,10 @@ export default function NavBar() {
           <a href="#Contact">
             <span>Contact</span>
           </a>
-          <a target="_blank" href="https://drive.google.com/file/d/1Tl-Rk3PzGutTMBqUW4pap3Og_XXCxw2E/view?usp=sharing">
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1Tl-Rk3PzGutTMBqUW4pap3Og_XXCxw2E/view?usp=sharing"
+          >
             <span>Resume</span>
           </a>
         </div>

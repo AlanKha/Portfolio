@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* Declare CSS variables */
 :root {
-  background-color: #896043c2;
-  color: #FFFCEC;
-  background-image: url(https://arc.net/noise-light.png);
+  --custom-brown: #896043c2;
+  --custom-white: #FFFCEC;
+  --noise-image: url(https://arc.net/noise-light.png);
   scroll-behavior: smooth;
+}
+
+html {
+  background-color: var(--custom-brown);
+  color: var(--custom-white);
+  background-image: var(--noise-image);
 }
