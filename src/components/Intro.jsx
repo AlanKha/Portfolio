@@ -4,7 +4,7 @@ export default function Intro() {
   return (
     <div
       id="Intro"
-      className=" px-36 flex justify-center  text-center flex-col items-center min-h-[85vh] pb-24"
+      className="px-8 lg:px-36 flex justify-center  text-center flex-col items-center min-h-[85vh] pb-24"
     >
       <h1 className="text-6xl leading-snug font-bold pb-4">
         Hi, my name is{" "}

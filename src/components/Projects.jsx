@@ -5,7 +5,7 @@ export default function Experience() {
   return (
     <div
       id="Projects"
-      className="bg-none bg-white text-black px-36 pb-32 py-16"
+      className="bg-none bg-white text-black px-8 lg:px-36 pb-32 py-16"
     >
       <div className="px-3 text-2xl flex justify-between border-b pb-2 border-black">
         <h1 className="">Featured Work</h1>

@@ -2,7 +2,7 @@ import ScrollAnimation from "./ScrollAnimation";
 
 export default function Experience() {
   return (
-    <div id="Experience" className="bg-none bg-white text-black px-36 py-16">
+    <div id="Experience" className="bg-none bg-white text-black px-8 lg:px-36 py-16">
       <div className="pt-12 px-3 text-2xl flex justify-between border-b pb-2 border-black">
         <h1 className="">Experience</h1>
         <h2 className="justify-end"></h2>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div id="Contact" className=" px-36 p-4 py-16">
+    <div id="Contact" className="px-8 lg:px-36 p-4 py-16">
       <h1 className="py-4 text-4xl font-bold text-center">Contact</h1>
       <form
         action="https://getform.io/f/ebpdeevb"
