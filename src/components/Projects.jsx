@@ -13,7 +13,7 @@ export default function Experience() {
       </div>
       <ScrollAnimation>
         <div className="text-2xl pt-4 md:pt-0 md:h-40 flex flex-col md:flex-row items-center border-b pb-2 border-black">
-          <div className="w-full md:w-16 mb-4 md:mb-0">
+          <div className="w-full md:w-32 mb-4 md:mb-0">
             <img
               src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWo2MmlxMTk2c3hhcmkxcnF6djF5c3U3eG80Z3NjM3dseG02NjJqeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xCAZJEPXYCazrgF9mi/giphy.webp"
               alt="Donation Box Gif"
@@ -45,7 +45,7 @@ export default function Experience() {
       </ScrollAnimation>
       <ScrollAnimation>
         <div className="text-2xl pt-4 md:pt-0 md:h-40 flex flex-col md:flex-row items-center border-b pb-2 border-black">
-          <div className="w-full md:w-16 mb-4 md:mb-0">
+          <div className="w-full md:w-32 mb-4 md:mb-0">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/e/e4/DijkstraDemo.gif"
               alt="Dijkstra's Algorithm Demo"
@@ -77,7 +77,7 @@ export default function Experience() {
       </ScrollAnimation>
       <ScrollAnimation>
         <div className="text-2xl pt-4 md:pt-0 md:h-40 flex flex-col md:flex-row items-center border-b pb-2 border-black">
-          <div className="w-full md:w-16 mb-4 md:mb-0">
+          <div className="w-full md:w-32 mb-4 md:mb-0">
             <img
               src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm1iOWkyNTZmdm16cGp6bnRobGwxZjkzcmYzMWNjMWs3YTl4cmx3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LMt9638dO8dftAjtco/giphy.webp"
               alt="Python Logo"

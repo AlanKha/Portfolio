@@ -9,7 +9,7 @@ export default function Experience() {
       </div>
       <ScrollAnimation>
         <div className="text-2xl pt-4 md:pt-0 md:h-40 flex flex-col md:flex-row items-center border-b pb-2 border-black">
-          <div className="w-full md:w-16 mb-4 md:mb-0">
+          <div className="w-full md:w-32 mb-4 md:mb-0">
             <img
               src="https://brand.utk.edu/wp-content/uploads/2019/02/University-CenteredLogo-RGB.png"
               alt="mission of hope logo"
@@ -33,7 +33,7 @@ export default function Experience() {
 
       <ScrollAnimation>
         <div className="text-2xl pt-4 md:pt-0 md:h-40 flex flex-col md:flex-row items-center border-b pb-2 border-black">
-          <div className="w-full md:w-16 mb-4 md:mb-0">
+          <div className="w-full md:w-32 mb-4 md:mb-0">
             <img
               src="https://missionofhope.org/wp-content/uploads/2023/04/cropped-MOH-Logo-e1706121435496.png"
               alt="mission of hope logo"
