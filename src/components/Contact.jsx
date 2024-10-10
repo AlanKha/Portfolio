@@ -34,7 +34,7 @@ export default function Contact() {
       if (json.success) {
         setResponse({
           type: 'success',
-          message: 'Thank you for reaching out!'
+          message: 'Thank you for reaching out! Your message has been delivered to my email and I will respond back as soon as I can.'
         });
       } else {
         setResponse({
@@ -51,20 +51,6 @@ export default function Contact() {
     }
   };
 
-  // Temporary function to set the response manually for testing
-  const simulateResponse = (type) => {
-    if (type === 'success') {
-      setResponse({
-        type: 'success',
-        message: 'Thank you for reaching out! Your message has been delivered to my email and I will respond back as soon as I can!.'
-      });
-    } else if (type === 'error') {
-      setResponse({
-        type: 'error',
-        message: 'There was an error sending the message. Please feel free to reach out to my email directly, khalilialan@gmail.com'
-      });
-    }
-  };
 
   return (
     <div id="Contact" className="px-8 lg:px-36 p-4 py-16">
