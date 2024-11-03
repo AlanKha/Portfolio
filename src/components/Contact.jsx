@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function Contact() {
   const [contact, setContact] = useState({
@@ -8,59 +8,63 @@ export default function Contact() {
     honeypot: "",
     message: "",
     replyTo: "@",
-    accessKey: import.meta.env.VITE_ACCESS_KEY
+    accessKey: import.meta.env.VITE_ACCESS_KEY,
   });
 
   const [response, setResponse] = useState({
     type: "",
-    message: ""
+    message: "",
   });
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     setContact({ ...contact, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async e => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('https://api.staticforms.xyz/submit', {
-        method: 'POST',
+      const res = await fetch("https://api.staticforms.xyz/submit", {
+        method: "POST",
         body: JSON.stringify(contact),
-        headers: { 'Content-Type': 'application/json' }
+        headers: { "Content-Type": "application/json" },
       });
 
       const json = await res.json();
 
       if (json.success) {
         setResponse({
-          type: 'success',
-          message: 'Thank you for reaching out! Your message has been delivered to my email and I will respond back as soon as I can.'
+          type: "success",
+          message:
+            "Thank you for reaching out! Your message has been delivered to my email and I will respond back as soon as I can.",
         });
       } else {
         setResponse({
-          type: 'error',
-          message: json.message
+          type: "error",
+          message: json.message,
         });
       }
     } catch (e) {
-      console.log('An error occurred', e);
+      console.log("An error occurred", e);
       setResponse({
-        type: 'error',
-        message: 'An error occurred while submitting the form.'
+        type: "error",
+        message: "An error occurred while submitting the form.",
       });
     }
   };
-
 
   return (
     <div id="Contact" className="px-8 lg:px-36 p-4 py-16">
       <h1 className="py-4 text-4xl font-bold text-center">Contact</h1>
 
-      {response.type === 'success' && (
-        <div className="text-center bg-customGreen text-customWhite p-4 rounded-lg">{response.message}</div>
+      {response.type === "success" && (
+        <div className="text-center bg-customGreen text-customWhite p-4 rounded-lg">
+          {response.message}
+        </div>
       )}
-      {response.type === 'error' && (
-        <div className="text-center bg-red-400 text-customWhite p-4 rounded-lg notification is-danger">{response.message}</div>
+      {response.type === "error" && (
+        <div className="text-center bg-red-400 text-customWhite p-4 rounded-lg notification is-danger">
+          {response.message}
+        </div>
       )}
 
       {!response.message && (

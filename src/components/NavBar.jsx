@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Spin as Hamburger } from "hamburger-react";
 import { AiOutlineHome, AiTwotoneFileText } from "react-icons/ai";
 import { RiGraduationCapLine } from "react-icons/ri";

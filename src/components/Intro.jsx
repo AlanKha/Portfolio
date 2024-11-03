@@ -23,7 +23,7 @@ export default function Intro() {
         👋
       </h1>
       <h2 className="text-xl leading-loose">
-        It's my third year at The University of Tennessee studying Computer
+        It&apos;s my third year at The University of Tennessee studying Computer
         Science, and{" "}
         <RoughNotation
           type="highlight"

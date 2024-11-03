@@ -61,7 +61,7 @@ export default function Experience() {
             </a>
             <h3 className="text-lg">
               A high-performance application to find the optimal route between
-              cities using Dijkstra's Algorithm.
+              cities using Dijkstra&apos;s Algorithm.
             </h3>
           </div>
           <div className="invisible md:visible w-full md:w-16 ml-auto flex items-center justify-end">
